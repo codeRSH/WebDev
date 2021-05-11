@@ -1,0 +1,135 @@
+* {
+    /* Affects all elements */
+    margin: 0;
+    padding: 0;
+    /* Height and Width defined for entire box, and not just content inside the box */
+    box-sizing: border-box;
+}
+
+body {
+    /* CSS Inheritance: This will apply to every element within the body tag unless overwritten.  */
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+h1,
+h2 {
+    color: rgb(3, 129, 3);
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: justify;
+}
+
+.html-text {
+    /* Class Selector */
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+#author-text {
+    /* ID Selector. Rarely used */
+    font-size: 18px;
+}
+
+.container {
+    width: 960px;
+    /* Below will keep the content centered always depending on the browser width */
+    /* margin-left: auto;
+    margin-right: auto; */
+
+    /* margin-top: 20px; */
+
+    /* margin : top right bottom left */
+    margin: 20px auto 0 auto;
+}
+
+.clear-fix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.html-box {
+    /* background-color: #00f; */
+    width: 75%;
+    float: left;
+    padding-right: 30px;
+    position: relative;
+}
+
+.other-box {
+    /* background-color: #0f0; */
+    width: 25%;
+    float: left;
+    padding-left: 30px;
+}
+
+.js-box {
+    margin-top: 20px;
+}
+
+.author-box {
+    /* background-color: #ff0; */
+    padding-top: 20px;
+    border-top: 1px solid #808080;
+}
+
+.author-box img {
+    /* img tag within author-box class */
+    height: 100px;
+    width: 100px;
+    /* Make the picture circular!! */
+    border-radius: 50%;
+    float: left;
+}
+
+.author-name {
+    margin: 35px 0 0 110px;
+}
+
+
+.html-box img {
+    height: 150px;
+    width: auto;
+}
+
+.date {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+/* .typo-box,
+.color-box,
+.image-box,
+.icon-box,
+.whitespace-box,
+.ux-box,
+.design-box,
+.project-box {
+    margin: 20px 0 20px 0;
+} */
+
+.web-design-tips {
+    margin: 20px 0 20px 0;
+}
+
+.web-design-tips ol {
+    padding: 10px 0 0 20px;
+}
+
+.web-design-tips ol ul {
+    padding: 10px 0 10px 20px;
+}

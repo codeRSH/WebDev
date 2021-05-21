@@ -5,6 +5,7 @@
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "50-projects"
+		"liveServer.settings.multiRootWorkspaceName": "50-projects",
+		"workbench.colorTheme": "Solarized Dark"
 	}
 }

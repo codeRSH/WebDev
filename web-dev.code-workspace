@@ -1,11 +1,16 @@
 {
-	"folders": [
-		{
-			"path": "omnifood-project"
-		}
-	],
+	"folders": [{
+		"path": "omnifood-project"
+	}],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "50-projects",
-		"workbench.colorTheme": "Solarized Dark"
+		"liveServer.settings.multiRootWorkspaceName": "Web-Dev",
+		"workbench.colorTheme": "Solarized Dark",
+	},
+	"extensions": {
+		"recommendations": ["CoenraadS.bracket-pair-colorizer", "dbaeumer.vscode-eslint",
+			"HookyQR.beautify", "ritwickdey.LiveServer", "shardulm94.trailing-spaces",
+			"softwaredotcom.swdc-vscode", "equinusocio.vsc-material-theme-icons"
+		]
 	}
+
 }
